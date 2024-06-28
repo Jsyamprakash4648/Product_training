@@ -1,0 +1,68 @@
+#bodyDiv
+{
+    background-color: #25b8f2;
+    width: 28%;
+    margin-left: 32%;
+    margin-top: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+
+#formfeidset
+{
+    width: 90%;
+    background-color: white;
+    padding: 3%;
+   
+}
+
+input
+{
+    
+    width: 90%;
+    padding: 3%;
+    border: 0.5px solid grey;
+    border-radius: 5px;
+    
+    justify-content: center;
+
+}
+textarea
+{
+        height: 120px;
+        width: 95%;
+
+}
+#inputbutton
+{
+    background-color: #25b8f2;;
+    font-size: large;
+}
+
+#second_div
+{
+    padding-top: 4%;
+}
+
+h1
+{
+    color: orangered;
+}
+@media screen and (max-width:350px){
+
+    #bodyDiv
+{
+    background-color: red;
+    width: 100%;
+    margin: 0;
+}
+
+    
+}
+/* body
+{
+    justify-content: center;
+} */

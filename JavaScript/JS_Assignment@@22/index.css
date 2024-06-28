@@ -1,0 +1,110 @@
+img{
+    width: 25px;
+    height: 25px;
+}
+
+.table1{
+    border-collapse: collapse;
+    width: 60%;
+    /* background-color: aqua; */
+    margin-left: 20%;
+    
+}
+.table1 tr{
+    border: 2px solid black;
+}
+
+.span1
+{
+    justify-content: center;
+    padding: 15px ;
+    margin-left: 2%;
+    text-align: center;
+    font-weight: bolder;
+   
+}
+
+.span2
+{
+    justify-content: center;
+    padding: 15px ;
+    margin-left: 2%;
+    text-align: center;
+    color: blue;
+    font-weight: bolder;
+   
+}
+
+
+#tsd
+{
+
+
+   padding: 14px;
+}
+
+#insideform
+{
+    text-align: left;
+    padding: 15px;
+}
+
+
+select
+{
+    width: 170px;
+    margin-left: 6px;
+    outline: none;
+
+}
+input
+{
+    margin-left: 8px;
+    outline: none;
+}
+
+#button1
+{
+    width: 30%;
+}
+
+input[type="button"]
+{
+    width: 15%;
+    margin-left: 2%;
+   padding: 1%;
+}
+input[type="date"]
+{
+    width: 94%;
+}
+
+#trr
+{
+    padding: 0.5%;
+}
+
+.container2
+{
+    display: none;
+}
+.tab2spans
+{
+    margin-left: 20px;
+}
+
+.abcd
+{
+    font-size: larger;
+    font-weight: bold;
+}
+
+#distab2
+{
+    width: 40%;
+}
+
+.spanadj
+{
+    margin-left: 8px;
+}

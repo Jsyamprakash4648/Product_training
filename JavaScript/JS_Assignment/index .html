@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <table class="table1" border="2">
+            <tr >
+                <td id="tsd"> <img src="images/synfusionlogo.png" alt="logo"><span class="span1">Library</span> <span class="span2" >Books</span></td>
+               
+            </tr>
+            <tr >
+               
+               <td id="trr">
+
+                    
+               
+                <form action="" id="insideform">
+                    <h3>Add New Book</h3>
+                    <table >
+                        <tr>
+                            <th>Category</th>
+                            <th><select name="" id="Categoryoptions">
+
+                                <option value="IT">IT</option>
+                                <option value="C#">C#</option>
+                                <option value="CSS">CSS</option>
+                                <option value="JS">JS</option>
+                            </select>
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <th>Book</th>
+                            <th><input type="text" onkeyup="checlbookname()" id="bookname"></th> <th> <span id="errorbname"></span></th>
+                        
+                            
+                        </tr>
+
+                        <tr>
+                            <th>Author Email</th>
+                            <th><input type="text" onkeyup="checkauthoremail()" id="Authormail"><th> <th> <span id="errorAemail" ></span></th>
+                        </tr>
+
+                        <tr>
+                            <th>Author Name</th>
+                            <th><input type="text" id="authorname" onkeyup="checkauthorname()"></th><th> <span id="errorAName"></span></th>
+                        </tr>
+
+
+                        <tr>
+                            <th>Published Year</th>
+                            <th><input type="number" id="inputdate" onkeyup="checkyear()"></th><th> <span id="errorPublished"></span></th>
+                        </tr>
+
+                        <tr>
+                            <th>Price</th>
+                            <th><input type="text" id="inputprice" onkeyup="checkprice()" ></th><th> <span id="errorprice"></span></th>
+                        </tr>
+                    </table>
+                </form>
+
+                <input type="button" name="" onclick="savedata()" id="Savebutton" value="Save">
+                <input type="button" name="" id="Cancelbutton" onclick="cancel()" value="Cancel">
+                <input type="button" name="" id="Showbutton" onclick="showdata()" value="Show">
+               </td>
+                
+                
+            </tr>
+
+            <tr>
+                    <td id="trr">Copyright@2024-present Syncfusion</td>
+
+            </tr>
+        </table>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container2" id="container2">
+        <table class="table1" border="2">
+            <tr >
+                <td id="tsd"> <img src="images/synfusionlogo.png" alt="logo"><span class="span1">Library</span> <span class="span2" >Books</span></td>
+               
+            </tr>
+            <tr >
+               
+               <td id="trr">
+
+
+               
+                <form action="" id="insideform">
+                    <span id="bookname2" class="abcd"> </span>
+                    <table>
+                        <tr>
+                            <th>Category</th>
+                            <th><span id="Category2" class="tab2spans"></span></th>
+                        </tr>
+
+                        <tr>
+                            <th>Book</th>
+                            <th><span id="bookname22" class="tab2spans"></span></th>
+                        </tr>
+
+                        <tr>
+                            <th>Author Email</th>
+                            <th><span id="Email2" class="tab2spans"></span></th>
+                        </tr>
+
+                        <tr>
+                            <th>Author Name</th>
+                            <th><span id="aname2" class="tab2spans"></span></th>
+                        </tr>
+
+
+                        <tr>
+                            <th>Published</th>
+                            <th><span id="pdate2" class="tab2spans"></span></th>
+                        </tr>
+
+                        <tr>
+                            <th>Price</th>
+                            <th><span id="price2" class="tab2spans"></span></th>
+                        </tr>
+                    </table>
+                </form>
+
+                
+               </td>
+                
+                
+            </tr>
+
+            <tr>
+                    <td id="trr">Copyright@2024-present Syncfusion</td>
+
+            </tr>
+        </table>
+    </div>
+
+
+
+
+</body>
+</html>

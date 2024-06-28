@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form action="">
+        <input type="number"  min="10" max="20" step="2" value="2">-example for type number min =10 max=20 step by 2 <br><br>
+
+        <input type="range"  min="10" max="200" step="2" value="50">--example for type range min =10 max=200 step by value <br><br>
+
+
+        <input type="date"  min="2023-06-20"  value="2024-05-13">--input type date which set value 2024-05-13 and it can't get min value of  2023-06-20 <br><br>
+
+        <input type="color">--input type color <br><br>
+
+        <input type="text" list="input-list">--example for input type="text" list="input-list"  and should have datalist tag inside that options can have and datalist id should equal to  the "List " ID
+        <datalist id="input-list">
+            <option value="val1" ></option>
+            <option value="val2" ></option>
+            <option value="val3" ></option>
+        </datalist>
+
+        <br><br>
+        <input type="mail"> its for mail validation automatically takes mail only <br><br>
+        <input type="url">its onlt url  <br><br>
+        <input type="search"> itf for search <br><br>
+
+        <input type="text" name="" id="" placeholder="enter your text">--place holder
+
+        <br><br>
+        <input type="text" placeholder="enter your id" pattern="[a-zA-Z]*" required>-it takes only texts form a-z and A-Z and required specifis it is compulsory
+        <br><br>
+        <input type="text" value="syam" readonly> it is readonly attribute<br><br>
+        
+
+
+        <video src="sorce file" controls></video>
+
+        <audio controls="controls">
+            <source src="source file"></source>
+        </audio>
+
+        <hr>
+        <br>
+
+
+        <br>
+
+    </form>
+
+    
+    <svg width="100" height="100" >
+        <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+      </svg>
+      <br> <br>
+
+
+      <svg width="300" height="130" class="svg">
+        <rect width="300" height="130" x="10" y="10" rx="20" ry="100" />
+      </svg>
+      this is svg: on hover color willl change <br> <br>    
+
+      <input type="submit" value="submit" ><br><br>
+
+
+    <canvas width="200" height="200" style="background-color: aquamarine;" id="canvas">
+
+    </canvas>
+    this is example for canvas that how workss with javascript <br> <br>
+
+    <canvas  id="canvas2" width="300" height="150" style="border:1px solid grey;" >
+
+    </canvas>this is example for canva liner gradient color application <br> <br> 
+
+
+
+    <canvas id="canvas3">
+
+    </canvas>
+
+
+    <form action="">
+        <input type="text" name="" id="key" placeholder="enter name">
+        <input type="text" name="" id="value"  placeholder="enter key">
+        <input type="button" onclick="add()" id="button1" value="submit">
+    </form>
+
+    <div id="displayDiv"> </div>
+
+   
+
+    <script src="ja.js"></script>
+</body>
+</html>

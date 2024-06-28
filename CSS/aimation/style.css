@@ -1,0 +1,76 @@
+.examplediv1
+{
+    width: 15%;
+    height: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+    background-image: linear-gradient( to right,black,white,blue);
+
+    
+}
+
+.conicalgradient
+{
+    width: 20%;
+    height: 100px;
+    margin-top:2% ;
+    border-radius: 50%;
+    background-color: aqua;
+    background-image: conic-gradient(red,white,green,yellow);
+}
+
+
+.transition
+{
+    width: 100px;
+  height: 100px;
+  background: red;
+  transition-property: width,height;
+  /* transition-property: height; */
+  transition-duration: 5s;
+  transition-delay: 2s;
+  margin-top: 2%;
+}
+
+.transition:hover
+{
+    width: 300px;
+    height: 300px;
+    
+}
+
+
+.one
+{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    margin-top: 2%;
+    margin-top: 2%;
+    position: sticky;
+    top: 100px;
+
+}
+
+.two
+{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin-top: 2%;
+    margin-top: 2%;
+    position: sticky;
+    top: 100px;
+   
+}
+
+.third
+{
+    background-color: goldenrod;
+    width: 100px;
+    height: 100px;
+    margin-top: 2%;
+    margin-top: 2%;
+    position: sticky;
+    top: 100px;
+}

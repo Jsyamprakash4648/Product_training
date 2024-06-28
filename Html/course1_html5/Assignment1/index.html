@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment_1</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+    <div id="bodyDiv">
+
+        <fieldset id="formfeidset">
+            <form action="" id="form1" onsubmit="DisplayDetails();return false;">
+                <h1>Contact Us</h1>
+                <h3>Contact us today,get reply with in 24 hours</h3><br>
+                <input type="text"  id="inputname" placeholder="Enter your name" pattern="[a-zA-Z]+" required title="name should conatin only a-zA-Z alphabets"><br><br>
+                <input type="mail" id="inputmail"  placeholder="Enter your email address" required translate="enter valid mail format "><br><br>
+
+                <input type="tel" id="inputnumber"  placeholder="Enter your Phone" pattern="^1-\d{3}-\d{3}-\d{3}$" required title="Telephone: Only mentioned format should be allowed. Format: 1-234-567-890"><br><br>
+
+                <input type="url" id="inputurl"  placeholder="Enter your Web" pattern="^https:\/\/.*$" title="please enter url which starts withs https://"><br><br>
+    
+                <textarea maxlength="140" id="inputtext"  placeholder="Enter your your Message " required title="140 chars only"></textarea><br><br>
+
+
+                <input type="submit"   id="inputbutton" value="Submit" >
+    
+            </form>
+            <div id="second_div">
+
+            </div>
+        </fieldset>
+        
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
+
+<!-- onclick="DisplayDetails()" -->

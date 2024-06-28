@@ -1,0 +1,26 @@
+
+body
+{
+    background-color: #1e81b0;
+    height: 100%;
+    width: 100%;
+}
+.mainDiv
+{
+    display: flex;
+    margin-left: 37%;
+    padding-top: 10%;
+    
+}
+#canvas
+{
+    margin-top: 10px;
+    align-items: center;
+    padding: 5%;
+    
+}
+
+#Quote
+{
+    margin-left: 38%;
+}

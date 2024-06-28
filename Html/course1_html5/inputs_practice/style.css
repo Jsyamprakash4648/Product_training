@@ -1,0 +1,9 @@
+.svg
+{
+    fill: aqua;
+}
+
+.svg:hover
+{
+    fill: red;
+}
